@@ -1,0 +1,8 @@
+.Rproj.user
+.Rhistory
+.RData
+.Renviron
+rsconnect/
+data/raw/*.txt
+data/raw/*.zip
+.DS_Store
