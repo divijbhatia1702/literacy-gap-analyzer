@@ -47,28 +47,3 @@ Rscript -e 'shiny::runApp("app.R", host = "0.0.0.0", port = 4789)'
 
 Open http://127.0.0.1:4789
 
-## Public hosting (shinyapps.io)
-
-Free public HTTPS URL for judges (recommended for CAC):
-
-1. Create an account at [shinyapps.io](https://www.shinyapps.io/).
-2. In the dashboard: **Account → Tokens → Show**, copy the `rsconnect::setAccountInfo(...)` line and run it once in R.
-3. From this repo folder:
-
-```bash
-Rscript scripts/deploy_shinyapps.R
-```
-
-Your live app will be:
-
-`https://<your-shinyapps-account>.shinyapps.io/literacy-gap-analyzer/`
-
-Keep that URL for the submission form / video description.
-
-## Contest notes
-
-- **Git / source URL for the challenge:** https://github.com/divijbhatia1702/literacy-gap-analyzer
-- Deadline: **October 26, 2026, 12:00 p.m. ET** at [congressionalappchallenge.us](https://www.congressionalappchallenge.us).
-- Register in **CA-10**.
-- Demo: All-states NAEP map → California ZIP map → SRVUSD → one school → one action.
-- Do not treat NAEP Proficient and CAASPP met-and-above as the same statistic.
